@@ -1,5 +1,5 @@
 
-# Student Records Management Application
+# Health Fitness Club
 
 ### Overview
 
@@ -9,7 +9,7 @@ ID: 101285602
 
 This project was developed as part of the requirements for COMP3005 FInal project V2
 
-[Link to Video Demonstration]()
+[Link to Video Demonstration](https://youtu.be/zJ21vMrdo_s)
 
 ### Setting up the PostgreSQL Database
 
@@ -27,6 +27,14 @@ Install [psycopg 3](https://pypi.org/project/psycopg/):
 pip3 install --upgrade pip           # to upgrade pip
 pip3 install "psycopg[binary,pool]"  # to install package and dependencies
 ```
+### Files
+
+1. The ER model Diagram and database schema and mapping are in `Conceptual_Design.pdf`
+2. `member_functions.py` handles member operations
+3. `trainer_functions.py` handles trainer operations
+4. `admin_functions.py` handles administrative staff operations
+5. `main.py` is the main function to operaton this project
+
 
 ### Running the Application
 
