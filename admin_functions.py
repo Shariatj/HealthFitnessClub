@@ -69,9 +69,6 @@ def billing_and_payment(conn, amount):
     member_id = input("Enter Member ID to process the payment for: ")
     amount_given = input("Enter amount to record: ")
     try:
-        if amount_given != amount:
-            print("Amount given does not match the expected amount. Transaction cancelled.")
-            return
         with conn.cursor() as cur:
             cur.execute("INSERT INTO Payment (MemberID, Amount, Date) VALUES (%s, %s, CURRENT_DATE);", (member_id, amount))
             conn.commit()
