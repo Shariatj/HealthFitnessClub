@@ -9,7 +9,7 @@ ID: 101285602
 
 This project was developed as part of the requirements for COMP3005 FInal project V2
 
-[Link to Video Demonstration](https://youtu.be/zJ21vMrdo_s)
+[Link to Video Demonstration](https://youtu.be/S3xLxGlhGHA)
 
 ### Setting up the PostgreSQL Database
 
