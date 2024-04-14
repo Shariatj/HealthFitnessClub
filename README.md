@@ -15,7 +15,7 @@ This project was developed as part of the requirements for COMP3005 FInal projec
 
 - Launch pgAdmin 4.
 - Create a new database. I am using `healthfitnessclub`.
-- Open the query tool for the database you just created and run the `DDL.sql` and then `DML.sql` file.
+- Open the query tool for the database you just created and run the `DDL.sql` and then `DML.sql` file in `SQL`.
 - This will create the required tables and populate it with initial data.
 
 
